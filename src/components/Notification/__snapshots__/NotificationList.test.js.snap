@@ -1,0 +1,717 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification List Component it matches the snapshot 1`] = `
+Array [
+  <nav
+    className="nav nav-tabs"
+    onKeyDown={[Function]}
+    role="tablist"
+  >
+    <a
+      aria-controls="uncontrolled-tab-example-tabpane-notifications"
+      aria-selected={true}
+      className="notification-tab-item nav-item nav-link active"
+      data-rb-event-key="notifications"
+      href="#"
+      id="uncontrolled-tab-example-tab-notifications"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="tab"
+    >
+      Notifications (6)
+    </a>
+    <a
+      aria-controls="uncontrolled-tab-example-tabpane-events"
+      aria-selected={false}
+      className="notification-tab-item nav-item nav-link"
+      data-rb-event-key="events"
+      href="#"
+      id="uncontrolled-tab-example-tab-events"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="tab"
+      tabIndex={-1}
+    >
+      Events (3)
+    </a>
+    <a
+      aria-controls="uncontrolled-tab-example-tabpane-messages"
+      aria-selected={false}
+      className="notification-tab-item nav-item nav-link"
+      data-rb-event-key="messages"
+      href="#"
+      id="uncontrolled-tab-example-tab-messages"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="tab"
+      tabIndex={-1}
+    >
+      Messages (3)
+    </a>
+  </nav>,
+  <div
+    className="tab-content"
+  >
+    <div
+      aria-hidden={false}
+      aria-labelledby="uncontrolled-tab-example-tab-notifications"
+      className="fade tab-pane active show"
+      id="uncontrolled-tab-example-tabpane-notifications"
+      role="tabpanel"
+    >
+      <div
+        className="list-items shadow list-group"
+        onKeyDown={[Function]}
+      >
+        <div
+          className="border-left-0 border-right-0 rounded-0 list-item pro-components-notice-icon-notice-list-item border-top-0 list-group-item"
+          data-rb-event-key={null}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="list-item-meta pro-components-notice-icon-notice-list-meta"
+          >
+            <div
+              className="list-item-meta-avatar"
+            >
+              <span
+                className="avatar pro-components-notice-icon-notice-list-avatar avatar-circle avatar-image"
+              >
+                <img
+                  alt=""
+                  src="https://gw.alipayobjects.com/zos/rmsportal/ThXAXghbEsBCCSDihZxY.png"
+                />
+              </span>
+            </div>
+            <div
+              className="list-item-meta-content"
+            >
+              <h4
+                className="list-item-meta-title"
+              >
+                <div
+                  className="pro-components-notice-icon-notice-list-title"
+                >
+                  You received 14 new weekly newspapers
+                </div>
+              </h4>
+              <div
+                className="list-item-meta-description"
+              >
+                <div>
+                  <div
+                    className="pro-components-notice-icon-notice-list-description"
+                  />
+                  <div
+                    className="pro-components-notice-icon-notice-list-datetime"
+                  >
+                    10 months ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="border-left-0 border-right-0 rounded-0 list-item pro-components-notice-icon-notice-list-item  list-group-item"
+          data-rb-event-key={null}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="list-item-meta pro-components-notice-icon-notice-list-meta"
+          >
+            <div
+              className="list-item-meta-avatar"
+            >
+              <span
+                className="avatar pro-components-notice-icon-notice-list-avatar avatar-circle avatar-image"
+              >
+                <img
+                  alt=""
+                  src="https://gw.alipayobjects.com/zos/rmsportal/ThXAXghbEsBCCSDihZxY.png"
+                />
+              </span>
+            </div>
+            <div
+              className="list-item-meta-content"
+            >
+              <h4
+                className="list-item-meta-title"
+              >
+                <div
+                  className="pro-components-notice-icon-notice-list-title"
+                >
+                  You received 14 new weekly newspapers
+                </div>
+              </h4>
+              <div
+                className="list-item-meta-description"
+              >
+                <div>
+                  <div
+                    className="pro-components-notice-icon-notice-list-description"
+                  />
+                  <div
+                    className="pro-components-notice-icon-notice-list-datetime"
+                  >
+                    10 months ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="border-left-0 border-right-0 rounded-0 list-item pro-components-notice-icon-notice-list-item  list-group-item"
+          data-rb-event-key={null}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="list-item-meta pro-components-notice-icon-notice-list-meta"
+          >
+            <div
+              className="list-item-meta-avatar"
+            >
+              <span
+                className="avatar pro-components-notice-icon-notice-list-avatar avatar-circle avatar-image"
+              >
+                <img
+                  alt=""
+                  src="https://gw.alipayobjects.com/zos/rmsportal/OKJXDXrmkNshAMvwtvhu.png"
+                />
+              </span>
+            </div>
+            <div
+              className="list-item-meta-content"
+            >
+              <h4
+                className="list-item-meta-title"
+              >
+                <div
+                  className="pro-components-notice-icon-notice-list-title"
+                >
+                  You received 14 new weekly newspapers
+                </div>
+              </h4>
+              <div
+                className="list-item-meta-description"
+              >
+                <div>
+                  <div
+                    className="pro-components-notice-icon-notice-list-description"
+                  />
+                  <div
+                    className="pro-components-notice-icon-notice-list-datetime"
+                  >
+                    10 months ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="border-left-0 border-right-0 rounded-0 list-item pro-components-notice-icon-notice-list-item  list-group-item"
+          data-rb-event-key={null}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="list-item-meta pro-components-notice-icon-notice-list-meta"
+          >
+            <div
+              className="list-item-meta-avatar"
+            >
+              <span
+                className="avatar pro-components-notice-icon-notice-list-avatar avatar-circle avatar-image"
+              >
+                <img
+                  alt=""
+                  src="https://gw.alipayobjects.com/zos/rmsportal/kISTdvpyTAhtGxpovNWd.png"
+                />
+              </span>
+            </div>
+            <div
+              className="list-item-meta-content"
+            >
+              <h4
+                className="list-item-meta-title"
+              >
+                <div
+                  className="pro-components-notice-icon-notice-list-title"
+                >
+                  You received 14 new weekly newspapers
+                </div>
+              </h4>
+              <div
+                className="list-item-meta-description"
+              >
+                <div>
+                  <div
+                    className="pro-components-notice-icon-notice-list-description"
+                  />
+                  <div
+                    className="pro-components-notice-icon-notice-list-datetime"
+                  >
+                    10 months ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="border-left-0 border-right-0 rounded-0 list-item pro-components-notice-icon-notice-list-item  list-group-item"
+          data-rb-event-key={null}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="list-item-meta pro-components-notice-icon-notice-list-meta"
+          >
+            <div
+              className="list-item-meta-avatar"
+            >
+              <span
+                className="avatar pro-components-notice-icon-notice-list-avatar avatar-circle avatar-image"
+              >
+                <img
+                  alt=""
+                  src="https://gw.alipayobjects.com/zos/rmsportal/GvqBnKhFgObvnSGkDsje.png"
+                />
+              </span>
+            </div>
+            <div
+              className="list-item-meta-content"
+            >
+              <h4
+                className="list-item-meta-title"
+              >
+                <div
+                  className="pro-components-notice-icon-notice-list-title"
+                >
+                  You received 14 new weekly newspapers
+                </div>
+              </h4>
+              <div
+                className="list-item-meta-description"
+              >
+                <div>
+                  <div
+                    className="pro-components-notice-icon-notice-list-description"
+                  />
+                  <div
+                    className="pro-components-notice-icon-notice-list-datetime"
+                  >
+                    10 months ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="border-left-0 border-right-0 rounded-0 list-item pro-components-notice-icon-notice-list-item  list-group-item"
+          data-rb-event-key={null}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="list-item-meta pro-components-notice-icon-notice-list-meta"
+          >
+            <div
+              className="list-item-meta-avatar"
+            >
+              <span
+                className="avatar pro-components-notice-icon-notice-list-avatar avatar-circle avatar-image"
+              >
+                <img
+                  alt=""
+                  src="https://gw.alipayobjects.com/zos/rmsportal/OKJXDXrmkNshAMvwtvhu.png"
+                />
+              </span>
+            </div>
+            <div
+              className="list-item-meta-content"
+            >
+              <h4
+                className="list-item-meta-title"
+              >
+                <div
+                  className="pro-components-notice-icon-notice-list-title"
+                >
+                  You received 14 new weekly newspapers
+                </div>
+              </h4>
+              <div
+                className="list-item-meta-description"
+              >
+                <div>
+                  <div
+                    className="pro-components-notice-icon-notice-list-description"
+                  />
+                  <div
+                    className="pro-components-notice-icon-notice-list-datetime"
+                  >
+                    10 months ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        className="border-0 rounded-0 clear-all-button pt-2 pb-2 shadow font-size-14 font-weight-bold btn btn-primary btn-block"
+        disabled={false}
+        type="button"
+      >
+        Clear All
+      </button>
+    </div>
+    <div
+      aria-hidden={true}
+      aria-labelledby="uncontrolled-tab-example-tab-events"
+      className="fade tab-pane"
+      id="uncontrolled-tab-example-tabpane-events"
+      role="tabpanel"
+    >
+      <div
+        className="list-items shadow list-group"
+        onKeyDown={[Function]}
+      >
+        <div
+          className="border-left-0 border-right-0 rounded-0 list-item pro-components-notice-icon-notice-list-item border-top-0 list-group-item"
+          data-rb-event-key={null}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="list-item-meta pro-components-notice-icon-notice-list-meta"
+          >
+            <div
+              className="list-item-meta-avatar"
+            >
+              <span
+                className="avatar pro-components-notice-icon-notice-list-avatar avatar-circle avatar-image"
+              >
+                <img
+                  alt=""
+                  src="https://gw.alipayobjects.com/zos/rmsportal/ThXAXghbEsBCCSDihZxY.png"
+                />
+              </span>
+            </div>
+            <div
+              className="list-item-meta-content"
+            >
+              <h4
+                className="list-item-meta-title"
+              >
+                <div
+                  className="pro-components-notice-icon-notice-list-title"
+                >
+                  All Events Posted
+                </div>
+              </h4>
+              <div
+                className="list-item-meta-description"
+              >
+                <div>
+                  <div
+                    className="pro-components-notice-icon-notice-list-description"
+                  />
+                  <div
+                    className="pro-components-notice-icon-notice-list-datetime"
+                  >
+                    10 months ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="border-left-0 border-right-0 rounded-0 list-item pro-components-notice-icon-notice-list-item  list-group-item"
+          data-rb-event-key={null}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="list-item-meta pro-components-notice-icon-notice-list-meta"
+          >
+            <div
+              className="list-item-meta-avatar"
+            >
+              <span
+                className="avatar pro-components-notice-icon-notice-list-avatar avatar-circle avatar-image"
+              >
+                <img
+                  alt=""
+                  src="https://gw.alipayobjects.com/zos/rmsportal/ThXAXghbEsBCCSDihZxY.png"
+                />
+              </span>
+            </div>
+            <div
+              className="list-item-meta-content"
+            >
+              <h4
+                className="list-item-meta-title"
+              >
+                <div
+                  className="pro-components-notice-icon-notice-list-title"
+                >
+                  React Event Posted
+                </div>
+              </h4>
+              <div
+                className="list-item-meta-description"
+              >
+                <div>
+                  <div
+                    className="pro-components-notice-icon-notice-list-description"
+                  />
+                  <div
+                    className="pro-components-notice-icon-notice-list-datetime"
+                  >
+                    10 months ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="border-left-0 border-right-0 rounded-0 list-item pro-components-notice-icon-notice-list-item  list-group-item"
+          data-rb-event-key={null}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="list-item-meta pro-components-notice-icon-notice-list-meta"
+          >
+            <div
+              className="list-item-meta-avatar"
+            >
+              <span
+                className="avatar pro-components-notice-icon-notice-list-avatar avatar-circle avatar-image"
+              >
+                <img
+                  alt=""
+                  src="https://gw.alipayobjects.com/zos/rmsportal/OKJXDXrmkNshAMvwtvhu.png"
+                />
+              </span>
+            </div>
+            <div
+              className="list-item-meta-content"
+            >
+              <h4
+                className="list-item-meta-title"
+              >
+                <div
+                  className="pro-components-notice-icon-notice-list-title"
+                >
+                  A new meetup at falana complex
+                </div>
+              </h4>
+              <div
+                className="list-item-meta-description"
+              >
+                <div>
+                  <div
+                    className="pro-components-notice-icon-notice-list-description"
+                  />
+                  <div
+                    className="pro-components-notice-icon-notice-list-datetime"
+                  >
+                    10 months ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        className="border-0 rounded-0 clear-all-button pt-2 pb-2 shadow font-size-14 font-weight-bold btn btn-primary btn-block"
+        disabled={false}
+        type="button"
+      >
+        Clear All
+      </button>
+    </div>
+    <div
+      aria-hidden={true}
+      aria-labelledby="uncontrolled-tab-example-tab-messages"
+      className="fade tab-pane"
+      id="uncontrolled-tab-example-tabpane-messages"
+      role="tabpanel"
+    >
+      <div
+        className="list-items shadow list-group"
+        onKeyDown={[Function]}
+      >
+        <div
+          className="border-left-0 border-right-0 rounded-0 list-item pro-components-notice-icon-notice-list-item border-top-0 list-group-item"
+          data-rb-event-key={null}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="list-item-meta pro-components-notice-icon-notice-list-meta"
+          >
+            <div
+              className="list-item-meta-avatar"
+            >
+              <span
+                className="avatar pro-components-notice-icon-notice-list-avatar avatar-circle avatar-image"
+              >
+                <img
+                  alt=""
+                  src="https://gw.alipayobjects.com/zos/rmsportal/ThXAXghbEsBCCSDihZxY.png"
+                />
+              </span>
+            </div>
+            <div
+              className="list-item-meta-content"
+            >
+              <h4
+                className="list-item-meta-title"
+              >
+                <div
+                  className="pro-components-notice-icon-notice-list-title"
+                >
+                  You have received new message from Falana Dhikana
+                </div>
+              </h4>
+              <div
+                className="list-item-meta-description"
+              >
+                <div>
+                  <div
+                    className="pro-components-notice-icon-notice-list-description"
+                  />
+                  <div
+                    className="pro-components-notice-icon-notice-list-datetime"
+                  >
+                    10 months ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="border-left-0 border-right-0 rounded-0 list-item pro-components-notice-icon-notice-list-item  list-group-item"
+          data-rb-event-key={null}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="list-item-meta pro-components-notice-icon-notice-list-meta"
+          >
+            <div
+              className="list-item-meta-avatar"
+            >
+              <span
+                className="avatar pro-components-notice-icon-notice-list-avatar avatar-circle avatar-image"
+              >
+                <img
+                  alt=""
+                  src="https://gw.alipayobjects.com/zos/rmsportal/ThXAXghbEsBCCSDihZxY.png"
+                />
+              </span>
+            </div>
+            <div
+              className="list-item-meta-content"
+            >
+              <h4
+                className="list-item-meta-title"
+              >
+                <div
+                  className="pro-components-notice-icon-notice-list-title"
+                >
+                  You have received new message from Someone
+                </div>
+              </h4>
+              <div
+                className="list-item-meta-description"
+              >
+                <div>
+                  <div
+                    className="pro-components-notice-icon-notice-list-description"
+                  />
+                  <div
+                    className="pro-components-notice-icon-notice-list-datetime"
+                  >
+                    10 months ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="border-left-0 border-right-0 rounded-0 list-item pro-components-notice-icon-notice-list-item  list-group-item"
+          data-rb-event-key={null}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="list-item-meta pro-components-notice-icon-notice-list-meta"
+          >
+            <div
+              className="list-item-meta-avatar"
+            >
+              <span
+                className="avatar pro-components-notice-icon-notice-list-avatar avatar-circle avatar-image"
+              >
+                <img
+                  alt=""
+                  src="https://gw.alipayobjects.com/zos/rmsportal/OKJXDXrmkNshAMvwtvhu.png"
+                />
+              </span>
+            </div>
+            <div
+              className="list-item-meta-content"
+            >
+              <h4
+                className="list-item-meta-title"
+              >
+                <div
+                  className="pro-components-notice-icon-notice-list-title"
+                >
+                  Someone wants to connect with you
+                </div>
+              </h4>
+              <div
+                className="list-item-meta-description"
+              >
+                <div>
+                  <div
+                    className="pro-components-notice-icon-notice-list-description"
+                  />
+                  <div
+                    className="pro-components-notice-icon-notice-list-datetime"
+                  >
+                    10 months ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        className="border-0 rounded-0 clear-all-button pt-2 pb-2 shadow font-size-14 font-weight-bold btn btn-primary btn-block"
+        disabled={false}
+        type="button"
+      >
+        Clear All
+      </button>
+    </div>
+  </div>,
+]
+`;

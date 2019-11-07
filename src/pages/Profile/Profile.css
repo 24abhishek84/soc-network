@@ -1,0 +1,226 @@
+.profile-cards {
+  min-width: 600px;
+}
+
+/* .grid-card {
+  flex: 0 0 49%;
+  height: fit-content;
+  width: 49%;
+} */
+
+.profile-cover-image {
+  object-fit: cover;
+}
+
+.profile-user-image {
+  margin-top: -130px;
+}
+
+.profile-image-div {
+  background: transparent url('/assets/icons/camera.png') 50% no-repeat;
+  background-color: rgba(243,246,248,.94);
+  /* margin-top: -130px; */
+  max-width: 160px;
+  max-height: 160px;
+  border-radius: 50%;
+  width: 100%;
+  position: relative;
+}
+
+.profile-organization-info {
+  flex: 1;
+}
+
+.profile-photo-edit__file-upload-input {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-color: transparent;
+  opacity: 0;
+}
+
+.edit-profile-banner {
+  top: 10px;
+  right: 10px;
+  background: #fff;
+}
+
+.edit-profile-banner:hover {
+  border: 1px solid #989898;
+  background: #fff !important;
+}
+
+#popover-positioned-left-banner.popover {
+  display: inline-flex;
+  background: rgba(0,0,0,.6);
+  border-radius: 2px;
+  color: #fff;
+  height: 32px;
+  align-items: center;
+}
+
+#popover-positioned-left-banner.popover .arrow {
+  display: none;
+}
+
+#popover-positioned-left-banner.popover .popover-header {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: unset;
+}
+
+.profile-header-buttons .btn {
+  border-radius: 0;
+  font-size: 14px;
+}
+
+.profile-header--add-profile {
+  font-weight: bold !important;
+}
+
+.profile-header--more {
+  font-weight: bold !important;
+}
+
+.profile-header--edit {
+  font-weight: bold !important;
+  height: 40px;
+  width: 40px;
+}
+
+.profile-header--edit-icon {
+  color: #0073b1;
+}
+
+.profile-header--edit:hover {
+  background-color: rgba(152,216,244,.25);
+  color: #0073b1;
+  box-sizing: border-box;
+}
+
+.profile-header--add-profile-dropdown .dropdown-menu {
+  padding: 0;
+  margin-top: 5px;
+  border-radius: 0;
+  left: -1px !important;
+  width: 250px;
+}
+
+.profile-meter .strength-meter {
+  width: calc(100% / 7);
+  /* margin-right: 5px; */
+  height: 100%;
+  border-right: 3px solid #fff;
+}
+
+.profile-meter .strength-meter:last-child {
+  border-right: 0;
+}
+
+.profile-meter {
+  background: linear-gradient(90deg, #544bc2, #17afb8, #2f7b15);
+  height: 12px;
+  border-radius: 2px;
+}
+
+.bg-mgrey {
+  background-color: #E1E9EE !important;
+}
+
+.meter-lock-div {
+  width: 32px;
+  height: 32px;
+  top: -10px;
+  left: -16px;
+  border: 3px solid #e1e9ee;
+  border-radius: 50%;
+  color: #7a8b98;
+  background-color: #fff;
+}
+
+.meter-star-div {
+  width: 32px;
+  height: 32px;
+  top: -10px;
+  right: -2px;
+  border: 3px solid #e1e9ee;
+  border-radius: 50%;
+  color: #7a8b98;
+  background-color: #fff;
+}
+
+.meter-navigation-button {
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: 167ms;
+  border: none;
+  justify-content: center;
+  transition-property: background-color,box-shadow,color;
+  background-color: transparent;
+  color: rgba(0,0,0,.6);
+}
+
+.meter-navigation-button:disabled {
+  background-color: transparent;
+  color: rgba(0,0,0,.25);
+  cursor: not-allowed;
+}
+
+.meter-navigation-button:hover:not(:disabled), .meter-navigation-button:focus:not(:disabled) {
+  background-color: hsla(0,0%,81.2%,.25);
+  color: rgba(0,0,0,.75);
+}
+
+.profile-dashboard, .profile-dashboard .card-header {
+  background-color: #f3f6f8 !important;
+}
+
+.dashboard-data-card {
+  padding: 8px 12px 12px;
+  flex: 1 1 0;
+}
+
+.profile-section-faPlus {
+  flex: 0 0 30px;
+  height: 30px !important;
+  width: 30px !important;
+  border: 1px solid rgba(0,0,0,.6) !important;
+}
+
+.profile-section-faPlus:hover {
+  border: 2px solid rgba(0,0,0,.75) !important;
+}
+
+.profile-section-faPlus svg path {
+  fill: rgba(0,0,0,.6);
+}
+
+.profile-section-faPlus:hover svg path {
+  fill: rgba(0,0,0,.75);
+}
+
+.accomplishments-menu {
+  padding: 0 !important;
+  margin: 0 !important;
+  left: -60px !important;
+  width: 250px;
+}
+
+.accomplishments-menu .dropdown-item {
+  padding: 12px 16px;
+  font-weight: 600;
+  color: grey;
+}
+
+.accomplishments-menu .dropdown-item:hover {
+  background-color: #cdcfd2;
+}
+
+.accomplishments-menu .dropdown-item:active, .accomplishments-menu .dropdown-item:focus {
+  background: rgba(152,216,244,.45);
+  color: #006097;
+}

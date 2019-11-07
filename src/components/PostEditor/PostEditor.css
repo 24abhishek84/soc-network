@@ -1,0 +1,52 @@
+.card__box--post {
+  width: auto;
+  margin: 10px auto;
+  float: none;
+  max-width: 650px;
+}
+
+.card__box--header {
+  background-color: #f5f6f7;
+  padding: 0.25rem 1.25rem;
+  border-top: 1px solid #dddfe2;
+}
+
+.card__box--header--div {
+  font-size: 14px;
+  line-height: 18px;
+  color: #4b4f56;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.user-select-none {
+  user-select: none;
+}
+
+.close-icon--post {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 15px;
+}
+
+.card__post--feature-icons:hover {
+  background-color: #c8ccd0;
+  border-color: #dae0e5;
+}
+
+.card__post--media {
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+}
+
+.border-dashed {
+  border: 1px dashed #d3d3d3;
+}
+
+.pr-6, .px-6 {
+  padding-right: 2.5rem !important;
+}

@@ -1,0 +1,112 @@
+.better-me-card-height {
+    height: 120px;
+}
+.better-me-card-height:hover {
+    /* transform: scale(1.05,1.05); */
+}
+.user-feedback-list {
+    margin-bottom: 5px !important;
+    border-radius: 5px !important;
+    margin-top: 1px !important;
+    font-weight: 900;
+    font-size: 16px;
+}
+.user-compitency-list {
+    margin-bottom: 5px !important;
+    border-radius: 5px !important;
+    margin-top: 1px !important;
+    font-weight: 900;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.feeback-list {
+    margin-bottom: 5px !important;
+    border-radius: 20px !important;
+    margin-top: 1px !important;
+    width: fit-content !important;
+}
+.answer_request {
+    color: rgb(0, 64, 133);
+    display: flex;
+    flex-direction: row-reverse;
+}
+.rows1 {
+    background-color: white !important;
+    padding: 10px !important;
+    width: 100% !important;
+}
+.rows2 {
+    background-color: white !important;
+    width: 100% !important;
+}
+.recharts-default-legend {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    margin-right: 50px !important;
+}
+.feedback-number {
+    height: 25px;
+    width: 25px;
+    align-items: center;
+}
+.users-list {
+    height: 400px;
+    overflow: auto;
+}
+.users-list:hover {
+    /* transform: scale(1.05,1.05); */
+}
+.users-list .employee {
+    width: 100px;
+    text-align: center;
+}
+.chart-col {
+    height: 100%;
+}
+
+.chart-col:hover {
+    /* transform: scale(1.05,1.05); */
+}
+.compitency {
+    font-size: medium;
+    font-weight: bold;
+}
+.betterme-link {
+    height: 60px;
+}
+.betterme-link.active {
+    font-weight: 700;
+    border-bottom: 2px solid #000000 !important;
+}
+a {
+    color: #000000 !important; 
+}
+.employee-post {
+   font-size: 12px; 
+   color: rgb(144, 148, 156);
+}
+.betterme-tootltip .arrow {
+    display: none !important;
+}
+.betterme-tootltip .tooltip-inner {
+    background-color: transparent !important;
+}
+.feedback-btn {
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 1050px) {
+    .employee-name {
+        display: none;
+    }
+
+    .user-compitency-list {
+        justify-content: space-around;
+    }
+
+    .compitency {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,169 @@
+.order-card {
+  color: #fff;
+}
+
+.bg-c-grey {
+  background: linear-gradient(45deg, #4C5360, #969aa0);
+}
+
+.bg-c-blue {
+  background: linear-gradient(45deg, #3572C3, #73b4ff);
+}
+
+.bg-c-violate {
+  background: linear-gradient(45deg, #8758D2, #5d379a);
+}
+
+.bg-c-pink {
+  background: linear-gradient(45deg, #FF5370, #ff869a);
+}
+
+.bg-c-lightblue {
+  background: linear-gradient(45deg, #59C3E7, #76ceec);
+}
+
+.bg-c-lightgreen {
+  background: linear-gradient(45deg, #60CBC7, #49bbb7);
+}
+
+.bg-c-yellow {
+  background: linear-gradient(45deg, #E5A644, #ffcb80);
+}
+
+.text-color-grey {
+  color: #4C5360;
+}
+
+.text-color-blue {
+  color: #3572C3;
+}
+
+.text-color-violate {
+  color: #8758D2;
+}
+
+.text-color-pink {
+  color: #FF5370;
+}
+
+.text-color-lightblue {
+  color: #59C3E7;
+}
+
+.text-color-lightgreen {
+  color: #60CBC7;
+}
+
+.text-color-yellow {
+  color: #E5A644;
+}
+
+.star-me-up .card.order-card {
+  border-radius: 5px;
+  box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  border: none;
+  margin-bottom: 10px;
+  justify-content: center;
+  height: 60px;
+  width: 100%;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  flex: 1 0 100px;
+  flex-flow: column;
+  flex-wrap: wrap;
+}
+
+.star-me-up .card {
+  transition: all 0.3s ease-in-out;
+  transition: transform 0.1s ease-in-out;
+}
+
+.star-me-up .card:hover, .sidenav .card:hover {
+  /* transform: scale(1.05); */
+  /* transition: 0.2s; */
+}
+
+.star-me-up .card .card-block {
+  padding: 5px;
+
+}
+
+.star-me-up .card .card-block h3 {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.order-card i {
+  font-size: 26px;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+.star-me-up-nav.nav {
+  height: 60px;
+  /* border-bottom: none !important; */
+}
+
+.star-me-up-nav.nav .nav-item:not(:last-child) {
+  border-right: 1px solid #dee2e6;
+}
+
+.star-me-up-nav.nav .nav-link {
+  height: 100%;
+  font-size: 14px;
+  color: black;
+}
+
+.star-me-up-nav.nav .nav-link.active, .star-me-up-nav.nav .nav-link:hover, .star-me-up-nav.nav .nav-link:focus {
+  font-weight: bold;
+  border: 0 !important;
+  border-bottom: 2px solid black !important;
+}
+
+.sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: width 0.1s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  padding: 8px 8px 8px 32px;
+  position: absolute;
+  top: 0;
+  font-size: 36px;
+  width: 100%;
+  text-align: right;
+  padding-right: 30px;
+  transition: 0.3s;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

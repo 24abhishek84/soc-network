@@ -1,0 +1,37 @@
+.dropdown-icon .dropdown-toggle {
+  border-radius: 17px;
+  border: 1px solid #d3d1cf;
+  background-color: #f7f6f5;
+  max-height: 28px;
+  outline: none;
+}
+
+.dropdown-icon .dropdown-toggle:hover {
+  background-color: #ece9e7;
+  border: 1px solid #d3d1cf;
+}
+
+.search-padding {
+  padding: 7px 10px !important;
+}
+
+.search-input {
+  background-color: #ece9e7 !important;
+  border: 2px solid #ece9e7 !important;
+  border-radius: 8px !important;
+  box-sizing: border-box;
+  height: 32px !important;
+  position: relative;
+  width: 215px !important;
+}
+
+.search-input[placeholder] {
+  color: #000;
+}
+
+.search-input:focus {
+  background-color: #fff !important;
+  border: 2px solid #ece9e7 !important;
+  outline: 0px !important;
+  box-shadow: none;
+}

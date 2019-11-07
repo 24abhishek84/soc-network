@@ -1,0 +1,69 @@
+.event-details{
+  padding: 15px 15px;
+}
+.event-icons{
+  margin-right: 10px;
+  color: #029EFD;
+  height: 20px;
+  width: 20px !important;
+}
+.event-content{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.event-user-icons{
+  margin-right: 10px;
+  color: #e58124;
+  height: 20px;
+  width: 20px !important;
+}
+.event-attending-profile{
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+}
+.event-last-image{
+    top: 0px;
+    left: 5px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(30, 104, 182, 0.6);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.attending-details{
+  display: flex;
+}
+.attending-details:last-child{
+  position: relative;
+}
+.event-attend-div{
+  /* top, right, bottom, and left */
+  display: flex;
+  padding: 10px 0  10px 0;
+}
+.event-join-pod{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0  10px 0;
+}
+.event-header{
+  background-color: #ffffff !important;
+}
+.event-join-pod-link{
+  color: #007fff !important;
+  font-size: 14px !important;
+  height: 50px;
+  width: 100%;
+  justify-content: center;  
+  border-radius: 100px;
+}
+.event-join-pod-link:hover {
+  background-color: rgba(2, 158, 253, 0.08); 
+  border-radius: 100px;
+}

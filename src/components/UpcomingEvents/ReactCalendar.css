@@ -1,0 +1,26 @@
+.events-date {
+    background-color: #929394  !important;
+    color: #ffffff !important;
+    border-radius: 50%;
+    border: none;
+}
+
+.events-selected-date {
+    background-color: #007bff  !important;
+    color: #ffffff !important;
+    border-radius: 50%;
+    border: none;
+}
+.today-active {
+    background: #373E4C !important;
+    color: #ffffff !important;
+    border-radius: 50% !important;
+}
+
+.react-calendar__tile {
+    height: 50px;
+}
+
+.react-calendar__tile--active {
+    border-radius: 50% !important;
+}

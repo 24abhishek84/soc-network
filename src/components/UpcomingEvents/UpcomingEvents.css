@@ -1,0 +1,45 @@
+.event-calendar {
+    margin: 10px 13px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+} 
+
+.event-calendar .react-calendar {
+    border: 0;
+}
+
+.plus-participants {
+    margin-left: -50px;
+    background: transparent;
+    top: 0px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(154, 170, 177, 0.5);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.posts-listing-newsfeed {
+    display: flex;
+    justify-content: center;
+}
+
+.event-calendar {
+    position: sticky;
+}
+
+@media (max-width: 1100px) {
+    .posts-listing-newsfeed {
+        flex-direction: column-reverse;
+    }
+
+    .event-calendar {
+        position: inherit;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+}

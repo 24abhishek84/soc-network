@@ -1,0 +1,1 @@
+export const LOAD_COWORKERS = 'FollowCoworkers/LOAD_COWORKERS';

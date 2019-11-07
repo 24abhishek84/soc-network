@@ -1,0 +1,5 @@
+.create-group-modal .modal-content {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}

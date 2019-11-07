@@ -1,0 +1,82 @@
+{
+  "name": "fb-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free-regular": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@trendmicro/react-sidenav": "^0.4.5",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "echarts": "^4.3.0",
+    "echarts-for-react": "^2.0.15-beta.0",
+    "emotion": "^10.0.17",
+    "eslint": "^5.16.0",
+    "formik": "^1.5.8",
+    "immutable": "^4.0.0-rc.12",
+    "keycloak-js": "^6.0.1",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.10.2",
+    "react-big-calendar": "^0.21.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-calendar": "^2.19.2",
+    "react-dom": "^16.10.2",
+    "react-items-carousel": "^2.8.0",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.0.1",
+    "react-select": "^3.0.8",
+    "react-widgets": "^4.4.11",
+    "react-widgets-moment": "^4.0.27",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "slate": "^0.47.8",
+    "slate-react": "^0.22.9",
+    "styled-components": "^4.4.0",
+    "yup": "^0.27.0"
+  },
+  "scripts": {
+    "lint": "eslint ./src",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test-react-scripts": "react-scripts test",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "prettier": "^1.17.1",
+    "react-test-renderer": "^16.11.0"
+  }
+}

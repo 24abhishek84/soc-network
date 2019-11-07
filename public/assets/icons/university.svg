@@ -1,0 +1,23 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #005e93;
+      }
+
+      .cls-2 {
+        fill: #9bdaf3;
+      }
+
+      .cls-3 {
+        fill: #00a0dc;
+      }
+    </style>
+  </defs>
+  <title>56dp</title>
+  <path class="cls-1" d="M29,24V38H27V24h2m3-3H24V41h8V21h0Z"/>
+  <rect class="cls-2" x="15" y="20.99" width="12" height="20"/>
+  <rect class="cls-2" x="29" y="20.99" width="12" height="20"/>
+  <path class="cls-1" d="M47,24a2,2,0,0,0,2-2v-3.8a2,2,0,0,0-1.06-1.76l-19-10.2a1.92,1.92,0,0,0-1.81,0l-19,10.2A2,2,0,0,0,7,18.19V22a2,2,0,0,0,2,2h1V38H9a2,2,0,0,0-2,2v6H49V40a2,2,0,0,0-2-2H46V24h1Zm-37-5.2L28,9.15l18,9.64V21H10v-2.2ZM18,24h6V38H18V24Zm9,0h2V38H27V24ZM38,38H32V24h6V38ZM15,24V38H13V24h2ZM46,43H10V41H46v2Zm-3-5H41V24h2V38Z"/>
+  <circle class="cls-3" cx="28" cy="15.99" r="3"/>
+</svg>

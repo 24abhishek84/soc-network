@@ -1,0 +1,19 @@
+.selectClass{
+  width: 100%
+}
+
+.post-modal .modal-content {
+  width: unset;
+}
+
+.post-modal .card__box--post {
+  margin: 0 auto;
+}
+
+.post-modal .card__box--post.card {
+  border: 0;
+}
+
+.my-groups-modal .modal-header .close {
+  margin: -0.5rem -0.5rem -0.5rem auto;
+}

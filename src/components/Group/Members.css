@@ -1,0 +1,5 @@
+.members .dropdown-toggle::before,
+.members .dropdown-toggle::after {
+  border: none !important;
+  content: none !important;
+}

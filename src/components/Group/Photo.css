@@ -1,0 +1,62 @@
+.photos-nav.nav-tabs .nav-link.active,
+.photos-nav.nav-tabs .nav-item.show .nav-link {
+  color: #000;
+  background-color: transparent;
+  border: none;
+  font-weight: 600;
+}
+
+.photos-nav [class="nav-link active"]:after {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yA/r/6L3hertgl-A.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: -25px -206px;
+  content: "";
+  display: block;
+  height: 9px;
+  margin-left: 10px;
+  width: 19px;
+  margin-top: 10px;
+}
+
+.photos-nav.nav-tabs .nav-link {
+  color: #000;
+  border: none;
+}
+
+.photos-nav.nav-tabs .nav-link:hover,
+.photos-nav.nav-tabs .nav-link:focus {
+  border-color: transparent !important;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  padding-bottom: 0 !important;
+}
+
+.photoSize {
+  width: 157px !important;
+  height: 157px !important;
+  object-fit: cover;
+}
+
+.card-header-bottom {
+  border-top: 1px solid #e5e5e5;
+}
+
+.card-header-bottom:hover {
+  background-color: #e5e5e5 !important;
+}
+
+.modal-555px .modal-content {
+  width: 555px;
+}
+
+.modal-555px .modal-body {
+  padding-bottom: 0px !important;
+}
+
+.modal-555px .modal-footer {
+  padding: 0.5rem !important;
+}
