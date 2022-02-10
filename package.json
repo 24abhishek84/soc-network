@@ -19,7 +19,7 @@
     "immutable": "^4.0.0-rc.12",
     "keycloak-js": "^6.0.1",
     "moment": "^2.24.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react": "^16.10.2",
     "react-big-calendar": "^0.21.0",
     "react-bootstrap": "^1.0.0-beta.14",
